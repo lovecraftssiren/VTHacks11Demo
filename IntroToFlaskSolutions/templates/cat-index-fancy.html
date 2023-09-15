@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inspirational Cats</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>
+        Inspirational Cats
+    </h1>
+    <p>
+        <img src="{{cat_gif}}">
+        <p>{{quote}}</p>
+    </p>
+</body>
+</html>
